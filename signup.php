@@ -25,7 +25,7 @@
             if ($status){
                 echo "<script>";
                 echo "alert('Your registration has been successful! Please log in with the User ID and Password you have chosen! ');";
-                echo "location = 'index.php';";
+                echo "location = 'login.php';";
                 echo "</script>";
             }
 
