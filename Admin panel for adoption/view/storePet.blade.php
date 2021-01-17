@@ -58,7 +58,7 @@ h1{
 <p>Insert pet image:</p><input type="file" name="pet_image">
 <br>
 <input class="button" type="submit" name="store_pet" value="Save">
-<ul><a href={{"petList"}}>Home</a></ul> 
+<ul><a href={{"petList"}}>Cancel</a></ul> 
 </div>
 </div>
 
