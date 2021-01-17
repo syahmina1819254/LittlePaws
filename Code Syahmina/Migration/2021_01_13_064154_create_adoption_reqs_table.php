@@ -21,7 +21,8 @@ class CreateAdoptionReqsTable extends Migration
             $table->integer('UserID');
             $table->date('reqDate');
             $table->string('reqStatus');
-            $table->foreign('petID')->reference('id')->on('pet_adoptions');
+            $table->foreign('petID')->references('petID')->on('pet_adoptions');
+            $table->primary('adoptID');
 
             
         });
